@@ -1,0 +1,77 @@
+body {
+    background-color: #F4D04E;
+}
+
+.card {
+    height: 510x;
+    width: 384px;
+    background-color: white;
+    position: calc();
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px #111111;
+    border:#6B6B6B 2px solid;
+}
+
+.card-content {
+    padding: 24px 24px;
+}
+
+.card-image {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    background-image: url(./assets/images/illustration-article.svg);
+    margin-bottom: 24px;
+}
+
+.card-text {
+    margin-bottom: 24px;
+    row-gap: 12px;
+}
+
+.label {
+    background-color: #F4D04E;
+    height: 29px;
+    width: 82px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label h5 {
+    color: #111111; 
+}
+
+.date, h3, h5 {
+    color: #111111; 
+}
+
+h3:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+.text {
+    color: #6B6B6B;
+    padding-right: 20px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    width: 139px;
+    height: 32px;
+    align-items: center;
+}
+
+.author-image {
+    height: 32px;
+    width: 32px;
+}
+.author-image img {
+    width: 100%;
+}
